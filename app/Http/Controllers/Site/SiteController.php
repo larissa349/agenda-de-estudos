@@ -1,0 +1,21 @@
+<?php
+
+namespace App\Http\Controllers\Site;
+
+use App\Http\Controllers\Controller;
+use Illuminate\Http\Request;
+
+class SiteController extends Controller
+{
+    public function home() {
+        return view('home');
+    }
+
+    public function sobre() {
+        return view('sobre');
+    }
+
+    public function contato() {
+        return view('contato');
+    }
+}
